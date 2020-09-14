@@ -14,3 +14,5 @@
 - [@Ekeso Longe](https://github.com/ekesolonge)
 <!-- ZiyadTareq contribution -->
 - [@Ziyad Tareq](https://github.com/ZeyadTareq224)
+<!-- Feng Shui contribution -->
+- [@Samuel Yusuf](https://github.com/Sammi-code)
