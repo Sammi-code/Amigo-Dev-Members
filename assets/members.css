@@ -1,6 +1,7 @@
 /*  Do not touch here */
 .container{
   margin-top: 10rem;
+  margin-left: 200px;
 }
 /*  Do not touch here */
 .social-link a{
@@ -23,27 +24,27 @@
   float: left;
   width: 25%;
   margin-bottom: 16px;
+  margin-right: 40px;
   padding: 0 8px;
   flex-wrap: wrap;
   background: rgba(80, 163, 11, 0.3);
 }
 /*  Do not touch here */
-img{
-  width: 270px;
-  height: 270px;
+.member img{
+  width: 250px;
+  height: 200px;
   border-radius: 5px;
 }
 /* UncleBay styling go ahead and create yours */
 .unclebay{
   background: dodgerblue;
   border-radius: 5px;
-  margin-right: 20px;
   color: #fff;
-  opacity: 0.5;
   cursor: cell;
+  opacity: 0.9;
 }
 .unclebay:hover{
-  opacity: 0.9;
+  opacity: 0.5;
 }
 .unclebay .social-link a:hover{
   background: #333;
@@ -54,6 +55,48 @@ img{
 }
 /* UncleBay styling Ends here go ahead and create yours */
 
+/* Ekeso Start */
+.ekeso{
+  background: rgb(85, 2, 85);
+  color: white;
+  padding: 1rem;
+  /* flex-direction: column; */
+  border-radius: 5px;
+}
+
+.ekeso h1{
+  margin-top: 0;
+}
+
+.ekeso .social-link a{
+  border-radius: 50%;
+  color: rgb(85, 2, 85);
+  bottom: 11px;
+}
+
+.ekeso .social-link a:hover{
+  background: rgb(85, 2, 85);
+  color: white;
+}
+
+.ekeso-quote{
+  position: relative;
+  bottom: 23px;
+  text-align: center;
+}
+
+.ekeso-quote p{
+  margin-bottom: -2rem;
+}
+
+.ekeso-quote p span{
+  display: block;
+  text-align: right;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+/* Ekeso End */
 
 /* >>>>>>>>>>>>>>>  Contribution start <<<<<<<<<<<<<<<< */
 
@@ -64,8 +107,9 @@ img{
 /* Mobile View */
 /*  Do not touch here */
 @media screen and (max-width: 700px){
-    .container{
+  .container{
     margin-top: 0.8rem;
+    margin-left: 0;
   }
   .member{
     display: block;
