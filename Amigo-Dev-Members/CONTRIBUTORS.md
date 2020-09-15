@@ -18,5 +18,7 @@
 - [@ISIAKA ABDULAHI](https://github.com/isiakaabd)
 <!--MaureenAnyanwu's Contribution-->
 - [@Maureen Anyanwu](https://github.com/maura-dev)
-<!--Feng Shui's Contribution-->
+<!--ArimoroOlamilekan Contribution-->
+- [@Arimoro Olamilekan](https://github.com/Lexitar32)
+<!-- Feng Shui's Contribution-->
 - [@Sammi Code](https://github.com/Sammi-code)
