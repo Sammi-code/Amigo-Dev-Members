@@ -1,41 +1,68 @@
 /*  Do not touch here */
+
 .container{
   margin-top: 10rem;
   margin-left: 200px;
+
 }
+
+
 /*  Do not touch here */
-.social-link a{
-  text-decoration: none;
-  font-size: 19px;
-  background: #fff;
-  padding: 12px;
-  margin: 9px;
-  position: relative;
-  bottom: 13px;
-  border-radius: 5px;
-  font-weight: 600;
+
+.social-link a {
+    text-decoration: none;
+    font-size: 19px;
+    background: #fff;
+    padding: 12px;
+    margin: 9px;
+    position: relative;
+    bottom: 13px;
+    border-radius: 5px;
+    font-weight: 600;
 }
+
+
 /*  Do not touch here */
-.member{
-  display: flex;
-  align-content: center;
-  align-items: center;
-  justify-content: center;
-  float: left;
-  width: 25%;
-  margin-bottom: 16px;
-  margin-right: 40px;
-  padding: 0 8px;
-  flex-wrap: wrap;
-  background: rgba(80, 163, 11, 0.3);
+
+
+.member {
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    float: left;
+    width: 25%;
+    margin-bottom: 16px;
+    padding: 0 8px;
+    flex-wrap: wrap;
+    background: rgba(80, 163, 11, 0.3);
 }
+
+
 /*  Do not touch here */
+
 .member img{
   width: 250px;
   height: 200px;
   border-radius: 5px;
+
 }
+
+
 /* UncleBay styling go ahead and create yours */
+
+.unclebay {
+    background: dodgerblue;
+    border-radius: 5px;
+    margin-right: 20px;
+    color: #fff;
+    opacity: 0.5;
+    cursor: cell;
+}
+
+.unclebay:hover {
+    opacity: 0.9;
+}
 .unclebay{
   background: dodgerblue;
   border-radius: 5px;
@@ -45,39 +72,57 @@
 }
 .unclebay:hover{
   opacity: 0.5;
+
 }
-.unclebay .social-link a:hover{
-  background: #333;
-  color: #fff;
+
+.unclebay .social-link a:hover {
+    background: #333;
+    color: #fff;
 }
-.unclebay-quote{
-  text-align: center;
+
+.unclebay-quote {
+    text-align: center;
 }
+
+
 /* UncleBay styling Ends here go ahead and create yours */
 
+
+/* >>>>>>>>>>>>>>>  Contribution start <<<<<<<<<<<<<<<< */
+
+
 /* Ekeso Start */
-.ekeso{
-  background: rgb(85, 2, 85);
-  color: white;
-  padding: 1rem;
+
+
+.ekeso {
+    background: rgb(85, 2, 85);
+    color: white;
+    padding: 1rem;
+    flex-direction: column;
+    border-radius: 5px;
+
   /* flex-direction: column; */
   border-radius: 5px;
+
 }
 
-.ekeso h1{
-  margin-top: 0;
+.ekeso h1 {
+    margin-top: 0;
 }
 
-.ekeso .social-link a{
-  border-radius: 50%;
-  color: rgb(85, 2, 85);
-  bottom: 11px;
+.ekeso .social-link a {
+    border-radius: 50%;
+    color: rgb(85, 2, 85);
+    bottom: 11px;
 }
 
-.ekeso .social-link a:hover{
-  background: rgb(85, 2, 85);
-  color: white;
+.ekeso .social-link a:hover {
+    background: rgb(85, 2, 85);
+    color: white;
 }
+
+
+
 
 .ekeso-quote{
   position: relative;
@@ -94,18 +139,65 @@
   text-align: right;
   font-size: 18px;
   font-weight: 400;
+
 }
+
 
 /* Ekeso End */
 
+
+/* <<<<<<<<<<<<<<<< Contribution end >>>>>>>>>>>>>>> */
+
+
+/* REMLAD Start */
+
+
 /* >>>>>>>>>>>>>>>  Contribution start <<<<<<<<<<<<<<<< */
+
+.remlad {
+    background: black;
+    margin-left: 20px;
+    color: white;
+    padding: 1rem;
+    flex-direction: column;
+    border-radius: 5px;
+}
+
+.remlad h1 {
+    margin-top: 0;
+}
+
+.remlad .social-link a {
+    border-radius: 50%;
+    color: rgb(85, 2, 85);
+    bottom: 11px;
+}
+
+.remlad .social-link a:hover {
+    background: rgb(56, 53, 216);
+    color: white;
+}
+
+.remlad-quote {
+    text-align: center;
+}
+
+.remlad-quote p {
+    margin-bottom: 0;
+}
+
+
+/* REMLAD End */
 
 
 /* <<<<<<<<<<<<<<<< Contribution end >>>>>>>>>>>>>>> */
 
 
 /* Mobile View */
+
+
 /*  Do not touch here */
+
 @media screen and (max-width: 700px){
   .container{
     margin-top: 0.8rem;
@@ -118,4 +210,3 @@
     margin-top: 23px;
     text-align: center;
   }
-}
